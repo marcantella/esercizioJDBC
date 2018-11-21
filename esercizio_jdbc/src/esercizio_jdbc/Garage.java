@@ -22,7 +22,7 @@ public class Garage {
 		while (true) {
 			List<Automobile> automobili = elencoAutomobili();
 			System.out.print(
-					"Scegli l'operazione da eseguire:\n1:stampa elenco\n2:ricerca automobile per marca\n3:inserisci automobile\n-1:uscita\n>>> ");
+					"Scegli l'operazione da eseguire:\n1:stampa elenco\n2:ricerca automobile per marca\n3:inserisci automobile\n4:esporta elenco\n-1:uscita\n>>> ");
 			int n = in.nextInt();
 			switch (n) {
 			case 1:
